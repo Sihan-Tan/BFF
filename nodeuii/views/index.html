@@ -1,0 +1,26 @@
+<!--
+ * @Author: Tan Xuan
+ * @Date: 2020-10-30 01:10:24
+ * @LastEditors: Tan Xuan
+ * @LastEditTime: 2020-11-01 20:58:03
+ * @Description: 首页
+-->
+{% extends './layout.html' %}
+{% block styles %}
+<!-- injectcss -->
+{% endblock %}
+{% block title %}
+这是首页
+{% endblock %}
+{% block content %}
+<h1>[[data]]</h1>
+<div id="app-6">
+    <input v-model="message">
+    <p>{{ message }}</p>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="/scripts/index.js"></script>
+<!-- injectjs -->
+{% endblock %}

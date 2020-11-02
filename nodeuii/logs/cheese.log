@@ -1,0 +1,11 @@
+[2020-11-02T21:57:23.090] [ERROR] cheese - TypeError: index.getIndexs is not a function
+    at indexAction (/Users/tanxuan/Desktop/project/bff/nodeuii/controllers/IndexController.js:16:25)
+    at dispatch (/Users/tanxuan/Desktop/project/bff/nodeuii/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/tanxuan/Desktop/project/bff/nodeuii/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/tanxuan/Desktop/project/bff/nodeuii/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/tanxuan/Desktop/project/bff/nodeuii/node_modules/koa-compose/index.js:42:32)
+    at /Users/tanxuan/Desktop/project/bff/nodeuii/middleware/errorHandler.js:20:13
+    at dispatch (/Users/tanxuan/Desktop/project/bff/nodeuii/node_modules/koa-compose/index.js:42:32)
+    at /Users/tanxuan/Desktop/project/bff/nodeuii/middleware/errorHandler.js:12:15
+    at dispatch (/Users/tanxuan/Desktop/project/bff/nodeuii/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/tanxuan/Desktop/project/bff/nodeuii/node_modules/koa-static/index.js:53:15)
